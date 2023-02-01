@@ -13,7 +13,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Alexandre Ottmann
           </Heading>
-          <p>Digital Cratzmann (Artist / Developer / Designer )</p>
+          <p> (Artist / Developer / SoundDesigner )</p>
         </Box>
       </Box>
     
