@@ -18,20 +18,20 @@ padding: 10px;
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprints${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/onicon${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/">
       
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image src={footPrintImg} width={30} height={30} alt="logo" />
           <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamiliy="M PLUS Rounded 1c"
           fontWeight="bold"
           ml={3}
           >
-
+            Alexandre Ottmann
           </Text>
         </LogoBox>
       
