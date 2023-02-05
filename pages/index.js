@@ -28,16 +28,13 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <Paragraph> Alex est actuellement étudiant en développement Web, en formation à O'clock depuis décembre 2023. Formation qui le prépare aux technologies telles Js / React / Node.js / Express / Postgres
-          {' '}
-
+        <Paragraph> My name is Alexandre, I'm currently learning Web Development at O'clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I'm learning Typescript and Tailwind.          {' '}
           <Link href="/works/oniaudio">OniAudio</Link>
-
           .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
               My Portfolio
             </Button>
           </NextLink>
@@ -63,7 +60,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear> End of 2022 to Present</BioYear>
-          Started O'clock School, retraining in Web Developpement for a new Career
+          Started O'clock School, retraining in Web Development for a new Career
         </BioSection>
       </Section>
 
