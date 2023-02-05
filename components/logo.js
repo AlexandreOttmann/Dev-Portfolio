@@ -12,6 +12,10 @@ height: 30px;
 line-height: 20px;
 padding: 10px;
 
+>img{
+  transition: 200ms ease;
+}
+
 &:hover img {
   transform: rotate(20deg);
 }
@@ -27,7 +31,6 @@ const Logo = () => {
         <Image src={footPrintImg} width={30} height={30} alt="logo" />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-          fontFamiliy="M PLUS Rounded 1c"
           fontWeight="bold"
           ml={3}
         >

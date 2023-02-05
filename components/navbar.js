@@ -24,12 +24,13 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   return (
 
     <Link
+      borderRadius="md"
       as={NextLink}
       href={href}
       scroll={false}
       p={2}
       bg={active ? 'grassTeal' : undefined}
-      color={active ? '#202023' : inactiveColor}
+      color={active ? '#ffff' : inactiveColor}
       target={target}
       {...props}
     >
@@ -47,7 +48,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#fffff40', '#20202380')}
+      bg={useColorModeValue('#fffff480', '#20202380')}
       style={{ backdropFilter: 'blur(10px' }}
       zIndex={1}
       {...props}
@@ -62,7 +63,7 @@ const Navbar = props => {
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
-          widt={{ base: 'full', md: 'auto' }}
+          width={{ base: 'full', md: 'auto' }}
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
@@ -70,8 +71,12 @@ const Navbar = props => {
             Works
           </LinkItem>
 
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/blog" path={path}>
+            Blog
+          </LinkItem>
+
+          <LinkItem href="https://github.com/AlexandreOttmann" as={Link} target="_blank">
+            My Github
           </LinkItem>
 
         </Stack>
@@ -87,12 +92,12 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
+                <MenuItem as={MenuLink} href="/blog">
+                  Blog
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/">
+                {/* <MenuItem as={MenuLink} href="/">
                   Uses
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/AlexandreOttmann"
