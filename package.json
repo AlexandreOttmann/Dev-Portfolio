@@ -1,15 +1,16 @@
 {
   "name": "portfolio-dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alex's Website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexandre Ottmann & Takuya Mastuyama",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",

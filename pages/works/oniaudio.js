@@ -13,7 +13,7 @@ const Work = () => {
         </Title>
         <P>
           A Portfolio Website for my previously and still Sound Design activity.
-          It's my very first fully build website that I'm kinda proud of. It's beginner level since it's only using  pure Javascript but fonctionnal and responsiv.
+          It&apos;s my very first fully build website that I&apos;m kinda proud of. It&apos;s beginner level since it&apos;s only using  pure Javascript but fonctionnal and responsiv.
         </P>
         <List ml={4} my={4}>
           <ListItem>

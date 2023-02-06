@@ -30,7 +30,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             About me
           </Heading>
-          <Paragraph> My name is Alexandre, I'm currently learning Web Development at O'clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I'm learning Typescript, Tailwind and slowly falling in love with Algorithms.          {' '}
+          <Paragraph> My name is Alexandre, I&apos;m currently learning Web Development at O&apos;clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I&apos;m learning Typescript, Tailwind and slowly falling in love with Algorithms.          {' '}
             <Link href="/works/oniaudio">OniAudio</Link>
             .
           </Paragraph>
@@ -64,7 +64,7 @@ const Page = () => {
             <BioYear> End of 2022 to Present :</BioYear>
             <Text bgGradient='linear(to-l, #7928CA, #FF0080)'
               bgClip='text'>
-              Started O'clock School, retraining in Web Development for a new Career
+              Started O&apos;clock School, retraining in Web Development for a new Career
             </Text>
           </BioSection>
         </Section>

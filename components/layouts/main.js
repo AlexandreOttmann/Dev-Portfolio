@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../navbar.js'
 import VideoHeader from '../videoHeader.js'
 import { Box, Container } from '@chakra-ui/react'
-import { useRouter } from 'next/router.js'
+
 
 const Main = ({ children, router }) => {
 
@@ -12,7 +12,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Alexandre Ottmann - Page d'accueil</title>
+        <title>Alexandre Ottmann - Page d&apos;accueil</title>
       </Head>
 
       <Navbar path={router.asPath} className="tw-z-20" />
