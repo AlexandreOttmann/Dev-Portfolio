@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -10,13 +11,13 @@ import {
   Menu,
   MenuItem,
   MenuList,
-  MenuLink,
   MenuButton,
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -38,8 +39,9 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     </Link>
   )
 }
-
-
+const MenuLink = forwardRef((props, ref) => (
+  <Link ref={ref} as={NextLink} {...props} />
+))
 const Navbar = props => {
   const { path } = props
 
@@ -77,7 +79,11 @@ const Navbar = props => {
             Blog
           </LinkItem>
 
-          <LinkItem href="https://github.com/AlexandreOttmann" as={Link} target="_blank">
+          <LinkItem href="https://github.com/AlexandreOttmann" as={Link} target="_blank" display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}>
+            <IoLogoGithub />
             My Github
           </LinkItem>
 
@@ -85,7 +91,7 @@ const Navbar = props => {
         <Box flex={1} align="right">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu>
+            <Menu isLazy id="navbar-menu">
               <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
@@ -97,14 +103,15 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/blog">
                   Blog
                 </MenuItem>
-                {/* <MenuItem as={MenuLink} href="/">
-                  Uses
-                </MenuItem> */}
+
                 <MenuItem
                   as={Link}
                   href="https://github.com/AlexandreOttmann"
+                  style={{ gap: 5 }}
                 >
                   My Github
+                  <IoLogoGithub />
+
                 </MenuItem>
               </MenuList>
             </Menu>

@@ -1,5 +1,6 @@
 import NextLink from 'next/link'
-import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link } from "@chakra-ui/react"
+import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, List, ListItem } from "@chakra-ui/react"
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from "../components/section"
@@ -77,6 +78,52 @@ const Page = () => {
             Art, Music, Photography, Coffee, Potery, Learning and Dogs
           </Paragraph>
         </Section>
+
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/alexandre-ottmann/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  @Alexandre-Ottmann
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://github.com/AlexandreOttmann" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @AlexandreOttmann
+                </Button>
+              </Link>
+            </ListItem>
+
+
+            <ListItem>
+              <Link href="https://instagram.com/alex.ottmann" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoInstagram />}
+                >
+                  @alex.ottmann
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+        </Section>
+
+
       </Container>
     </Layout>
 
