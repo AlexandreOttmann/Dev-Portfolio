@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, SimpleGrid } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -22,14 +22,17 @@ const Work = () => {
               Https://oniaudio.com/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
+
           <ListItem>
             <Meta>Platform</Meta>
             <span>Windows/macOS/Linus</span>
           </ListItem>
+
           <ListItem>
             <Meta>Stack</Meta>
             <span>Html/Css & Javascript with GSAP for cards animations</span>
           </ListItem>
+
           <ListItem>
             <Meta>Github Repository</Meta>
             <Link href='https://github.com/AlexandreOttmann/Oni-Audio'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
@@ -41,10 +44,17 @@ const Work = () => {
 
         <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" />
         <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
-        {/* <WorkImage src="/images/works/carbon.png" alt="code" /> */}
+
+
+        <SimpleGrid columns={2} gap={2}>
+          <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+          <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+        </SimpleGrid>
+
       </Container>
     </Layout>
   )
 }
 
 export default Work
+export { getServerSideProps } from '../../components/chakra'

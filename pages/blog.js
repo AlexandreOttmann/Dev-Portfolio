@@ -24,8 +24,8 @@ const Blog = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10}>
           <Section>
-            <BlogGridItem id="oniaudio" title="OniAudio" thumbnail={thumbOniaudio} >
-              A Portfolio Website for my Sound Design Blogs
+            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbOniaudio} >
+              How I made this Website
             </BlogGridItem>
           </Section>
           <Section>
