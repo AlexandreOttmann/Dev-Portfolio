@@ -19,7 +19,7 @@ const VideoHeader = () => {
       <div className="tw-z-10 tw-text-center tw-px-8 tw-drop-shadow-lg tw-shadow-black">
         <div className="tw-uppercase tw-text-sm tw-mb-4">Welcome to</div>
         <div className="tw-text-4xl tw-font-mplus tw-font-medium">
-          A curated list of the tech I <span className="tw-text-orange-500">use</span>
+          A less professional <span className="tw-text-orange-500 ">space</span>
         </div>
       </div>
     </section>

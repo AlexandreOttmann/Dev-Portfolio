@@ -27,7 +27,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       borderRadius="md"
       as={NextLink}
       href={href}
-      scroll={false}
+      // scroll={false}
       p={2}
       bg={active ? 'grassTeal' : undefined}
       color={active ? '#ffff' : inactiveColor}
@@ -52,6 +52,8 @@ const Navbar = props => {
       style={{ backdropFilter: 'blur(10px' }}
       zIndex={1}
       {...props}
+
+
     >
       <Container display="flex" p={2} maxW="container.md" wrap="wrap" align="center" justify="space-between">
         <Flex align="center" mr={5}>

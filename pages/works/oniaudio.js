@@ -41,6 +41,7 @@ const Work = () => {
 
         <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" />
         <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+        {/* <WorkImage src="/images/works/carbon.png" alt="code" /> */}
       </Container>
     </Layout>
   )
