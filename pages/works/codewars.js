@@ -6,10 +6,10 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="OniAudio">
+    <Layout title="codeWars">
       <Container mt={3}>
         <Title>
-          OniAudio <Badge>2023</Badge>
+          CodeWars <Badge bg="orange.300">2022</Badge>
         </Title>
         <P>
           A Portfolio Website for my previously and still Sound Design activity.
@@ -18,25 +18,17 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://oniaudio.com/">
-              https://oniaudio.com/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.codewars.com/users/PetitOni/">
+              https://www.codewars.com/users/PetitOni <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>Windows/macOS/Linus</span>
-          </ListItem>
 
           <ListItem>
-            <Meta>Stack</Meta>
-            <span>Html/Css & Javascript with GSAP for cards animations</span>
+            <Meta>Language used</Meta>
+            <span>Javascript / Typescript</span>
           </ListItem>
 
-          <ListItem>
-            <Meta>Github Repository</Meta>
-            <Link href='https://github.com/AlexandreOttmann/Oni-Audio'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
-          </ListItem>
         </List>
 
 
@@ -48,7 +40,7 @@ const Work = () => {
 
         <SimpleGrid columns={2} gap={2}>
           <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
-          <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+          <P> PLACEHOLDER TEST</P>
         </SimpleGrid>
 
       </Container>

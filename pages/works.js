@@ -5,6 +5,10 @@ import { WorkGridItem } from '../components/grid-items'
 
 
 import thumbOniaudio from '../public/images/works/thumbOniaudio.png'
+import thumbCodewars from '../public/images/works/thumbCodewars.png'
+import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
+import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
+import thumbOldoni from '../public/images/works/thumbOldoni.png'
 
 const Works = () => {
   return (
@@ -21,19 +25,24 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="socialdev" title="SocialDev" thumbnail={thumbOniaudio} >
+            <WorkGridItem id="socialdev" title="SocialDev" thumbnail={thumbSocialdev} >
               A Social Media for French Devs (WIP)
             </WorkGridItem>
           </Section>
 
           <Section delay={0.2}>
-            <WorkGridItem id="oldoni" title="OldOni" thumbnail={thumbOniaudio} >
-              A Portfolio Website for my Sound Design works
+            <WorkGridItem id="codewars" title="Codewars" thumbnail={thumbCodewars} >
+              An overview of some of my algorithm works
             </WorkGridItem>
           </Section>
           <Section delay={0.2}>
-            <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbOniaudio} >
-              A Portfolio Website for my Sound Design works
+            <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbCsschatapp} >
+              A challenge from FrontEnd Mentor
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.2}>
+            <WorkGridItem id="oldoni" title="Old Oni Windows" thumbnail={thumbOldoni} >
+              A challenge from FrontEnd Mentor
             </WorkGridItem>
           </Section>
 
