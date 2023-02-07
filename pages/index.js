@@ -1,6 +1,7 @@
 import NextLink from 'next/link'
 import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, List, ListItem } from "@chakra-ui/react"
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { SiAdobeaftereffects, SiAdobepremierepro, SiProtools, SiApplemusic } from "react-icons/si";
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from "../components/section"
@@ -31,9 +32,9 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             About me
           </Heading>
-          <Paragraph> My name is Alexandre, I&apos;m currently learning Web Development at O&apos;clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I&apos;m learning Typescript, Tailwind and slowly falling in love with Algorithms.          {' '}
+          <Paragraph> My name is Alexandre, I&apos;m currently learning Web Development at O&apos;clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I&apos;m learning Typescript, Tailwind, MongoDB, NextJs and slowly falling in love with Algorithms.          {' '}
             {/* <Link href="/works/oniaudio">OniAudio</Link> */}
-            .
+
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
@@ -63,7 +64,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear> End of 2022 to Present :</BioYear>
-            <Text bgGradient='linear(to-l, #7928CA, #FF0080)'
+            <Text bgGradient='linear(to-l, #90CDF4, #FF0080)'
               bgClip='text'>
               Started O&apos;clock School, retraining in Web Development for a new Career
             </Text>
@@ -79,8 +80,16 @@ const Page = () => {
           </Paragraph>
         </Section>
 
+        <Section delay={0.5}>
 
-        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Additionnal software that I use
+          </Heading>
+          <Button fontSize='sm' leftIcon={<SiAdobeaftereffects />} variant="ghost">After Effect</Button>|<Button fontSize='sm' leftIcon={<SiAdobepremierepro />} variant="ghost">Premiere Pro</Button>|<Button fontSize='sm' leftIcon={<SiProtools />} variant="ghost">Protools</Button>|<Button fontSize='sm' leftIcon={<SiApplemusic />} variant="ghost">Logic Pro</Button>
+        </Section>
+
+
+        <Section delay={0.8}>
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>

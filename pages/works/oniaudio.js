@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, SimpleGrid } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, SimpleGrid, Text } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -30,7 +30,7 @@ const Work = () => {
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Html/Css & Javascript with GSAP for cards animations</span>
+            <span>HTML/CSS & Javascript with GSAP for cards animations</span>
           </ListItem>
 
           <ListItem>
@@ -42,13 +42,13 @@ const Work = () => {
 
 
 
-        <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" />
-        <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+        <WorkImage src="/images/works/oniaudioGif.gif" alt="oniaudio" />
 
 
-        <SimpleGrid columns={2} gap={2}>
+
+        <SimpleGrid columns={2} gap={2} className="tw-items-center">
           <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
-          <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+          <Text className="tw-text-center   tw-m-9 tw-p-3  tw-border">Mobile view, card aligned vertically </Text>
         </SimpleGrid>
 
       </Container>

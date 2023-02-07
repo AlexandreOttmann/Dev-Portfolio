@@ -18,7 +18,7 @@ const Blog = () => {
       <Layout title="Blog">
 
         <Paragraph>
-          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee and stuff. I didn&apos;t want to have a flashy website, but just something that fit who I am, in simplicity.
+          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. I didn&apos;t want to have a flashy website, but just something that show who I am, in simplicity.
         </Paragraph>
 
 
