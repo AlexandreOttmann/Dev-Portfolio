@@ -33,7 +33,7 @@ const Page = () => {
             About me
           </Heading>
           <Paragraph> My name is Alexandre, I&apos;m currently learning Web Development at O&apos;clock School since December 2023. Studies that train me on Javascript / React / Node.js / Express and PostgreSQL/MySQL. Aside from those, I&apos;m learning Typescript, Tailwind, MongoDB, NextJs and slowly falling in love with Algorithms.          {' '}
-            {/* <Link href="/works/oniaudio">OniAudio</Link> */}
+
 
           </Paragraph>
           <Box align="center" my={4}>

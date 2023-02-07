@@ -12,9 +12,9 @@ const Work = () => {
           SocialDev <Badge>2023</Badge>
         </Title>
         <P>
-          SocialDev is currently a work in progress. Build with my friend <Link href="https://github.com/frontcodelover" target="_blank">Nicolas de RAEMY</Link>.
+          SocialDev is currently a Work in Progress which I&apos;m building with my friend <Link href="https://github.com/frontcodelover" target="_blank">Nicolas de RAEMY</Link>.
           It&apos;s as social network for devs where you can post articles and interact with others through commenting and messaging.
-          We're using React for the front and designing with Tailwind. The back will be made with MongoDB through Express.
+          We&apos;re using React for the front and designing with Tailwind. The back will be made with MongoDB through Express.
         </P>
 
         <List ml={4} my={4}>
