@@ -106,9 +106,9 @@ const Work = () => {
           <br />
           2*2 = 4 &lt; n
           <br />
-          <strong className='tw-text-red-400  '>3*3 = 9 &gt; n</strong><br />
+          <strong className='tw-text-red-400 '>3*3 = 9 &gt; n</strong><br />
           Our solution will be our previous iteration, which is : 2 doors open.
-          <br /> <span className="tw-text-xs tw-text-green-300">TLDR: There&apos;s always a smartest way to do something. It's up to us to find it...</span>
+          <br /> <span className="tw-text-xs tw-text-green-300">TLDR: There&apos;s always a smartest way to do something. It&apos;s up to us to find it...</span>
         </P>
         <Link onClick={modal3.onOpen}>
           <WorkImage src="/images/works/codewars_example3_code.png" alt="first example code" />

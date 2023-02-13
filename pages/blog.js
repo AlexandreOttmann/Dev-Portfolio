@@ -22,13 +22,13 @@ const Blog = () => {
 
       <Layout title="Blog">
 
-        <Paragraph>
+        <Paragraph >
           So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. <br />I didn&apos;t want to have a flashy website, but just something that show who I am, in <span className="tw-text-orange-500">simplicity.</span>
         </Paragraph>
 
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10}>
-          <Section>
+        <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10} >
+          <Section >
             <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbIdeabehind} >
               How I made this Website
             </BlogGridItem>
