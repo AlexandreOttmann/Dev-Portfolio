@@ -13,7 +13,7 @@ import Layout from '../components/layouts/article'
 import thumbPoterie from '../public/images/works/thumbPoterie.jpg'
 import thumbCoffee from '../public/images/works/thumbCoffee.jpg'
 import thumbLearning from '../public/images/works/thumbLearning.jpg'
-import thumbIdeabehind from '../public/images/works/thumbIdeabehind.jpg'
+import thumbIdeaBehind from '../public/images/works/thumbIdeaBehind.jpg'
 import thumbGears from '../public/images/works/thumbGears.jpg'
 
 const Blog = () => {
@@ -29,7 +29,7 @@ const Blog = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10} >
           <Section >
-            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbIdeabehind} >
+            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbIdeaBehind} >
               How I made this Website
             </BlogGridItem>
           </Section>
