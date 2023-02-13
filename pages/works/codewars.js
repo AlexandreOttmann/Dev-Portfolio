@@ -99,8 +99,8 @@ const Work = () => {
         <WorkImage src="/images/works/codewars_example3.png" alt="first example" />
         <P>Quite challenging one where, where my first solution Timed Out when the input was too big. Caused by the use of nested loops.
           After some digging in Maths problem, I came up with a way more efficiant solution.
-          We need to find the number of open doors at the end of the day. In 2 words :  Which is... The 'previous' square roots superior to our students number(n).
-          <br />    For example : 'for n=5' and we have an incremental starting at 1.
+          We need to find the number of open doors at the end of the day. In 2 words :  Which is... The &apos;previous&apos; square roots superior to our students number(n).
+          <br />    For example : &apos;for n=5&apos; and we have an incremental starting at 1.
           <br />
           1*1 = 1 &lt; n
           <br />

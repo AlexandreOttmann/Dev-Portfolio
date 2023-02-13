@@ -30,13 +30,13 @@ const Blog = () => {
           </Section>
           <Section>
             <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbOniaudio} >
-              How I'm learning, what I want to learn and what I aim for
+              How I&apos;m learning, what I want to learn and what I aim for
             </BlogGridItem>
           </Section>
 
           <Section delay={0.2}>
             <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbOniaudio} >
-              I'm a coffee lover, but not the one you may portray
+              I&apos;m a coffee lover, but not the one you may portray
             </BlogGridItem>
           </Section>
           <Section delay={0.2}>
