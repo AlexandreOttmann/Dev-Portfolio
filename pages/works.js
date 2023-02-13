@@ -9,6 +9,7 @@ import thumbCodewars from '../public/images/works/thumbCodewars.png'
 import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
 import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
 import thumbOldoni from '../public/images/works/thumbOldoni.png'
+import Page_Under_Construction from '../public/images/UnderConstruction.jpg'
 
 const Works = () => {
   return (
@@ -59,18 +60,6 @@ const Works = () => {
             </Section>
           </motion.article>
 
-          <motion.article
-            className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
-            <Section delay={0.2}>
-              <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbCsschatapp} >
-                A challenge from FrontEnd Mentor
-              </WorkGridItem>
-            </Section>
-          </motion.article>
 
           <motion.article
             className="box"
@@ -85,6 +74,20 @@ const Works = () => {
             </Section>
           </motion.article>
 
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+          >
+            <Section delay={0.2}>
+              <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbCsschatapp} >
+                A challenge from FrontEnd Mentor
+              </WorkGridItem>
+            </Section>
+          </motion.article>
+
+
         </SimpleGrid>
 
 
@@ -98,16 +101,16 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={1}>
-            <WorkGridItem id="oniaudio" title="OniAudio" thumbnail={thumbOniaudio}>
-              A Portfolio Website for my Sound Design works
+            <WorkGridItem id="UnderConstruction" title="" thumbnail={Page_Under_Construction}>
+              Started coding in Decembre, I&apos;m working on it...
             </WorkGridItem>
           </Section>
-          <Section delay={1}>
-            <WorkGridItem id="socialdev" title="SocialDev" thumbnail={thumbOniaudio}>
-              A Portfolio Website for my Sound Design works
+          {/* <Section delay={1}>
+            <WorkGridItem id="" title="" thumbnail={Page_Under_Construction}>
+              Started coding in Decembre, I'm working on it...
             </WorkGridItem>
 
-          </Section>
+          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>

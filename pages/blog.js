@@ -29,19 +29,24 @@ const Blog = () => {
             </BlogGridItem>
           </Section>
           <Section>
-            <BlogGridItem id="socialdev" title="SocialDev" thumbnail={thumbOniaudio} >
-              A Social Media for French Devs (WIP)
+            <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbOniaudio} >
+              How I'm learning, what I want to learn and what I aim for
             </BlogGridItem>
           </Section>
 
           <Section delay={0.2}>
-            <BlogGridItem id="oniaudio" title="OldOni" thumbnail={thumbOniaudio} >
-              A Portfolio Website for my Sound Design Blogs
+            <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbOniaudio} >
+              I'm a coffee lover, but not the one you may portray
             </BlogGridItem>
           </Section>
           <Section delay={0.2}>
-            <BlogGridItem id="socialdev" title="SocialDev" thumbnail={thumbOniaudio} >
-              A Portfolio Website for my Sound Design Blogs
+            <BlogGridItem id="potery" title="An Ode to Potery" thumbnail={thumbOniaudio} >
+              I recently started a new hobby...
+            </BlogGridItem>
+          </Section>
+          <Section delay={0.4}>
+            <BlogGridItem id="photo" title="My Little Gears" thumbnail={thumbOniaudio} >
+              I never really liked photography until last year
             </BlogGridItem>
           </Section>
 

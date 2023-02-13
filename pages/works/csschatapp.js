@@ -9,47 +9,37 @@ const Work = () => {
     <Layout title="OniAudio">
       <Container mt={3}>
         <Title>
-          OniAudio <Badge>2023</Badge>
+          OniAudio <Badge>2022</Badge>
         </Title>
         <P>
-          A Portfolio Website for my previously and still Sound Design activity.
-          It&apos;s my very first fully build website that I&apos;m kinda proud of. It&apos;s beginner level since it&apos;s only using  pure Javascript but fonctionnal and responsiv.
+          Well... This is my very first integration from a front-end mentor challenge after a week at school. As you can see it&apos;s quite simple and very frankly it&apos;s a bit of a mess, like a lot of div elements inside each other.
+          But it&apos;s honest work I guess !
         </P>
         <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://oniaudio.com/">
-              https://oniaudio.com/ <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
 
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>Windows/macOS/Linus</span>
-          </ListItem>
+
+
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Html/Css & Javascript with GSAP for cards animations</span>
+            <span>Html/Css</span>
           </ListItem>
 
           <ListItem>
             <Meta>Github Repository</Meta>
-            <Link href='https://github.com/AlexandreOttmann/Oni-Audio'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
+            <Link href='https://github.com/AlexandreOttmann/Css-Chat-app-Illustration'>Chat-App Repo<ExternalLinkIcon mx="2px" /></Link>
           </ListItem>
         </List>
 
 
 
+        <WorkImage src="/images/works/thumbCsschatapp.png" alt="chat app" />
+        Be careful, it&apos;s absolutely not responsiv...
+        <WorkImage src="/images/works/dogs1.png" alt="zoomed view chat app" />
+        That&apos;s how I learned from this mistake...
 
-        <WorkImage src="/images/works/oniaudioGif.gif" alt="oniaudio" />
 
 
-
-        <SimpleGrid columns={2} gap={2}>
-          <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
-          <Text className="tw-text-center tw-items-center tw-m-9 tw-p-3 tw-text tw-border">Mobile view, card aligned vertically </Text>
-        </SimpleGrid>
 
       </Container>
     </Layout>
