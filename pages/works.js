@@ -9,7 +9,7 @@ import thumbCodewars from '../public/images/works/thumbCodewars.png'
 import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
 import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
 import thumbOldoni from '../public/images/works/thumbOldoni.png'
-import Page_Under_Construction from '../public/images/UnderConstruction.jpg'
+import Page_Under_Construction from '../public/images/UnderConstruction.png'
 
 const Works = () => {
   return (
@@ -102,7 +102,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={1}>
             <WorkGridItem id="UnderConstruction" title="" thumbnail={Page_Under_Construction}>
-              Started coding in Decembre, I&apos;m working on it...
+              Started coding in Decembre, I&apos;m working on it... But you can check my 404
             </WorkGridItem>
           </Section>
           {/* <Section delay={1}>

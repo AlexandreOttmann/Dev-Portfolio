@@ -9,7 +9,12 @@ import { BlogGridItem } from '../components/grid-items'
 import Layout from '../components/layouts/article'
 
 
-import thumbOniaudio from '../public/images/works/thumbOniaudio.png'
+
+import thumbPoterie from '../public/images/works/thumbPoterie.jpg'
+import thumbCoffee from '../public/images/works/thumbCoffee.jpg'
+import thumbLearning from '../public/images/works/thumbLearning.jpg'
+import thumbIdeabehind from '../public/images/works/thumbIdeabehind.jpg'
+import thumbGears from '../public/images/works/thumbGears.jpg'
 
 const Blog = () => {
   return (
@@ -18,34 +23,35 @@ const Blog = () => {
       <Layout title="Blog">
 
         <Paragraph>
-          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. I didn&apos;t want to have a flashy website, but just something that show who I am, in simplicity.
+          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. <br />I didn&apos;t want to have a flashy website, but just something that show who I am, in <span className="tw-text-orange-500">simplicity.</span>
         </Paragraph>
 
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10}>
           <Section>
-            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbOniaudio} >
+            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbIdeabehind} >
               How I made this Website
             </BlogGridItem>
           </Section>
           <Section>
-            <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbOniaudio} >
+            <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbLearning} >
               How I&apos;m learning, what I want to learn and what I aim for
             </BlogGridItem>
           </Section>
 
           <Section delay={0.2}>
-            <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbOniaudio} >
+            <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbCoffee} >
               I&apos;m a coffee lover, but not the one you may portray
             </BlogGridItem>
           </Section>
           <Section delay={0.2}>
-            <BlogGridItem id="potery" title="An Ode to Potery" thumbnail={thumbOniaudio} >
+            <BlogGridItem id="potery" title="An Ode to Potery" thumbnail={thumbPoterie} >
               I recently started a new hobby...
             </BlogGridItem>
           </Section>
+
           <Section delay={0.4}>
-            <BlogGridItem id="photo" title="My Little Gears" thumbnail={thumbOniaudio} >
+            <BlogGridItem id="photo" title="My Gears" thumbnail={thumbGears} >
               I never really liked photography until last year
             </BlogGridItem>
           </Section>

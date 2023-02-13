@@ -29,14 +29,14 @@ const Work = () => {
         <WorkImage src="/images/codewars_badge.svg" />
         <P>
           Well, this is definitely not a website I built or anything but just some algorithms achievement I made on the website
-          <Link href="https://www.codewars.com/" > Codewars</Link>.
+          <Link href="https://www.codewars.com/" target="_blank"> Codewars</Link>.
           I started learning algorithms with javascript late december 2022 and took a liking to it. Discovering new methods trough katas and puzzles solving.
         </P>
 
         <List ml={4} my={4} >
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.codewars.com/users/PetitOni/">
+            <Link href="https://www.codewars.com/users/PetitOni/" target="_blank">
               https://www.codewars.com/users/PetitOni <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -108,6 +108,7 @@ const Work = () => {
           <br />
           <strong className='tw-text-red-400  '>3*3 = 9 &gt; n</strong><br />
           Our solution will be our previous iteration, which is : 2 doors open.
+          <br /> <span className="tw-text-xs tw-text-green-300">TLDR: There&apos;s always a smartest way to do something. It's up to us to find it...</span>
         </P>
         <Link onClick={modal3.onOpen}>
           <WorkImage src="/images/works/codewars_example3_code.png" alt="first example code" />

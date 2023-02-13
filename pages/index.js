@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, List, ListItem } from "@chakra-ui/react"
-import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import { SiAdobeaftereffects, SiAdobepremierepro, SiProtools, SiApplemusic } from "react-icons/si";
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
@@ -60,7 +60,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020 to Present</BioYear>
-            Worked as a Sound Designer Freelance on {' '}<Link href="https://www.malt.fr/profile/alexottmann">Malt website</Link>
+            Worked as a Sound Designer Freelance on {' '}<Link href="https://www.malt.fr/profile/alexottmann" target="_blank">Malt website</Link>
           </BioSection>
           <BioSection>
             <BioYear> End of 2022 to Present :</BioYear>
@@ -95,6 +95,18 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
+              <Link href="mailto:ottmann.alex@gmail.com" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoMail />}
+                >
+                  @ottmann.alex
+                </Button>
+              </Link>
+            </ListItem>
+
+            <ListItem>
               <Link href="https://www.linkedin.com/in/alexandre-ottmann/" target="_blank">
                 <Button
                   variant="ghost"
@@ -105,6 +117,7 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
+
             <ListItem>
               <Link href="https://github.com/AlexandreOttmann" target="_blank">
                 <Button
@@ -134,7 +147,7 @@ const Page = () => {
 
 
       </Container>
-    </Layout>
+    </Layout >
 
   )
 }
