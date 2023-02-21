@@ -1,6 +1,6 @@
-import { Badge, Link, List, ListItem, Divider, SimpleGrid } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { TitleBlog, WorkImage, Meta } from '../../components/work'
+import { Badge, Divider } from '@chakra-ui/react'
+
+import { TitleBlog, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Modale from '../../components/modale'
