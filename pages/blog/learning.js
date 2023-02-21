@@ -23,7 +23,7 @@ const Work = () => {
       <P>As I&apos;m writting this, it&apos;s been 3 months since I started my retraining at O&apos;Clock school. I&apos;s a remote school where we have live sessions with teachers for each notions and practicals exercices every day. I choosed this school for the stacks learned, they provid a precise range of languages and tech&apos; which are particullary used in the industry. Compare to some other schools where the technologies learned are somewhat depreciated. </P>
       <br /><p>So, here we&apos;re learning Javascript as the main Language, started with HTML/CSS, then JS. For the back we get to learn a lot more fun stuff. Here&apos;s a none exhaustiv list...</p>
       <br />
-      <table className='tw-w-full '>
+      <table className='tw-w-full'>
         <tbody>
           <tr >
             <td>Node.js</td>
