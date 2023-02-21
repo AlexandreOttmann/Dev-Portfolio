@@ -44,13 +44,13 @@ const Blog = () => {
             </BlogGridItem>
           </Section>
           <Section delay={0.2}>
-            <BlogGridItem id="potery" title="An Ode to Potery" thumbnail={thumbPoterie} >
+            <BlogGridItem id="potery" title="An Ode to Potery (wip)" thumbnail={thumbPoterie} >
               I recently started a new hobby...
             </BlogGridItem>
           </Section>
 
           <Section delay={0.4}>
-            <BlogGridItem id="photo" title="My Gears" thumbnail={thumbGears} >
+            <BlogGridItem id="photo" title="My Gears (wip)" thumbnail={thumbGears} >
               I never really liked photography until last year
             </BlogGridItem>
           </Section>

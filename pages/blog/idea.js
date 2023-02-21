@@ -1,4 +1,4 @@
-import { Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { Badge, Link, List, ListItem, Divider } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { TitleBlog, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -11,36 +11,34 @@ const Work = () => {
       <TitleBlog>
         The idea behind this website <Badge>2023</Badge>
       </TitleBlog>
-      <P>
-        A Portfolio Website for my previously and still Sound Design activity.
-        It&apos;s my very first fully build website that I&apos;m kinda proud of. It&apos;s beginner level since it&apos;s only using  pure Javascript but fonctionnal and responsiv.
-      </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://oniaudio.com/">
-            Https://oniaudio.com/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linus</span>
-        </ListItem>
-        <ListItem>
           <Meta>Stack</Meta>
-          <span>Html/Css & Javascript with GSAP for cards animations</span>
+          <span>Next/React | ChakraUI | MotionFramer</span>
         </ListItem>
         <ListItem>
           <Meta>Github Repository</Meta>
-          <Link href='https://github.com/AlexandreOttmann/Oni-Audio'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
+          <Link href='https://github.com/AlexandreOttmann/Dev-Portfolio' target="_blank">Alex Dev Portfolio Repo<ExternalLinkIcon mx="2px" /></Link>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/idea_1.jpg" alt="learning picture" />
+      {/* {/* <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" /> */}
+      <span className='tw-flex tw-w-full tw-justify-end'><P className="tw-text-xs">15/02/2023 | Just an <strong className="tw-text-orange-500">idea</strong></P></span>
+      <Divider my={6} borderColor="grey" />
+
+
+      <P>
+        So, we all saw those flashy and beautiful web developper portfolios. Let&apos;s be honest, I&apos;m nowhere near this level as a junior. I need to focus on what&apos;s the most usefull to learn, to become an ace for a futur recruiter.
+        <br />
+        They are not building shinny portfolio but <em className="tw-text-teal-500">stable architectures</em>. This is what this portfolio want to display.
+        It is built with React and Next.Js, using ChakraUI for the styling and Tailwind over it for fine tuning. Is deliberately simple and minimalistic. I want to show a fully functionnal, responsive and beautiful portfolio, emphasizing on the content, showing what I can do for now and showing who I am too. And particulary displaying my capacity to learn. <br />3 months behind I wasn&apos;t able to do a single Algorithm, nor build a single HTML web page. And I&apos;m now digging React, creating my own portfolio. I discovered those last months a big desire to learn and spend most of my time for it. I think it&apos;s a really big part of what make me think that I made the right choice, learning web development.
+      </P>
 
 
 
 
-      <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" />
-      <WorkImage src="/images/works/oniaudio_02.png" alt="oniaudio" />
+
+
 
 
     </Layout>
