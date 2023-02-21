@@ -21,7 +21,7 @@ const Work = () => {
           <Link href='https://github.com/AlexandreOttmann/Dev-Portfolio' target="_blank">Alex Dev Portfolio Repo<ExternalLinkIcon mx="2px" /></Link>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/idea_1.jpg" alt="learning picture" />
+      <WorkImage src="/images/works/idea_01.jpg" alt="learning picture" />
       {/* {/* <WorkImage src="/images/works/oniaudio_01.png" alt="oniaudio" /> */}
       <span className='tw-flex tw-w-full tw-justify-end'><P className="tw-text-xs">15/02/2023 | Just an <strong className="tw-text-orange-500">idea</strong></P></span>
       <Divider my={6} borderColor="grey" />

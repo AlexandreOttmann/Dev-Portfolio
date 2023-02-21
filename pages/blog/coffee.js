@@ -12,7 +12,7 @@ const Work = () => {
         Why I love Speciality Coffee <Badge>2023</Badge>
       </TitleBlog>
 
-      <WorkImage src="/images/works/coffee_2.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_02.jpg" alt="coffee picture" />
       <span className='tw-flex tw-w-full tw-justify-end'><P className="tw-text-xs">19/02/2023 | My daily <strong className="tw-text-orange-500">Driver</strong></P></span>
       <Divider my={6} borderColor="grey" />
       <p className='tw-text-center tw-text-sm'>
@@ -25,11 +25,11 @@ const Work = () => {
       </P>
 
 
-      <WorkImage src="/images/works/coffee_1.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_01.jpg" alt="coffee picture" />
 
 
       <P>And just like wine, you can describe the taste or aroma with a lot of words, from fruity to flowery. Sometime like bergamot or the contrary: chocolate, honey. When a coffee is well done, depending on its origin, you may taste sweetness with a delicate acidity. And as the temperature decrease, you may enjoy new flavors.</P>
-      <Modale content='coffee picture' source='coffee_3.png' />
+      <Modale content='coffee picture' source='coffee_03.png' />
 
 
     </Layout >

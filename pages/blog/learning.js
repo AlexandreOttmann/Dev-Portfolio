@@ -11,7 +11,7 @@ const Work = () => {
         How I am currently learning <Badge>2023</Badge>
       </TitleBlog>
 
-      <WorkImage src="/images/works/learning_1.jpg" alt="learning picture" />
+      <WorkImage src="/images/works/learning_01.jpg" alt="learning picture" />
 
       <span className='tw-flex tw-w-full tw-justify-end'><P className="tw-text-xs">20/02/2023 | An empty <strong className="tw-text-orange-500">canvas</strong></P></span>
       <Divider my={6} borderColor="grey" />
@@ -57,7 +57,7 @@ const Work = () => {
           Furthemore, algorithm studies are a little part of each week too.
           Only after becoming way more efficient, I&apos;ll try to dig something that I know I&apos;ll love, <em className="tw-text-teal-500">Three.js</em>
         </p>
-        <WorkImage src="/images/works/learning_2.jpg" alt="learning picture 2" />
+        <WorkImage src="/images/works/learning_02.jpg" alt="learning picture 2" />
       </SimpleGrid>
       <br />
 
