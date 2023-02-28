@@ -17,7 +17,7 @@ const Work = () => {
 
         <WorkImage src="/images/works/thumbArgonautes.png" alt="argonautes website image" />
         <P>
-          This project is part of a Wild School Challenge to integrate their cooperative training course. They asked to build a functionnal and simple MERN app. Which is 'just' a form and a list.
+          This project is part of a Wild School Challenge to integrate their cooperative training course. They asked to build a functionnal and simple MERN app. Which is &apos;just&apos; a form and a list.
           I had one day to do it knowing that I&apos;m currently learning front and back connexions and interactions. This was definitively a fun way to put my fresh knowledge at work, and knowing how something simple can in reality quite tricky behind the scene.
         </P>
         <P>I used React and Axios to send the form data to Express. Connected to MongoDB and fetched back in React via some routes. Well, I had issue with the list refreshing and causing memory leak while using useEffect(). I&apos;m still curious about a solution not using Redux to move my states between components...</P>
