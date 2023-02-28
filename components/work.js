@@ -8,9 +8,10 @@ export const Title = ({ children }) => (
     <Link as={NextLink} href="/works">Works</Link>
 
     <span>
-      &nbsp;
-      <ChevronRightIcon />
-      &nbsp;
+      {' '}
+
+      <ChevronRightIcon /> {' '}
+
     </span>
     <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
       {children}
@@ -24,9 +25,10 @@ export const TitleBlog = ({ children }) => (
     <Link as={NextLink} href="/blog">Blog</Link>
 
     <span>
-      &nbsp;
-      <ChevronRightIcon />
-      &nbsp;
+      {' '}
+
+      <ChevronRightIcon /> {' '}
+
     </span>
     <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
       {children}

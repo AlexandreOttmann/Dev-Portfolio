@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-items'
 import { motion } from "framer-motion";
 
+import thumbArgonautes from '../public/images/works/thumbArgonautes.png'
 import thumbOniaudio from '../public/images/works/thumbOniaudio.png'
 import thumbCodewars from '../public/images/works/thumbCodewars.png'
 import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
@@ -20,12 +21,26 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+
           <motion.article
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section>
+              <WorkGridItem id="argonautes" title="Argonautes" thumbnail={thumbArgonautes} >
+                A MERN app with Front & Back to MongodDB
+              </WorkGridItem>
+            </Section>
+          </motion.article>
+
+
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="oniaudio" title="OniAudio" thumbnail={thumbOniaudio} >
                 A Portfolio Website for my Sound Design works
@@ -38,8 +53,7 @@ const Works = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="socialdev" title="SocialDev" thumbnail={thumbSocialdev} >
                 A Social Media for French Devs (WIP)
@@ -47,12 +61,13 @@ const Works = () => {
             </Section>
           </motion.article>
 
+
+
           <motion.article
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="codewars" title="Codewars" thumbnail={thumbCodewars} >
                 An overview of some of my algorithm works
@@ -65,8 +80,7 @@ const Works = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="oldoni" title="Old Oni Windows" thumbnail={thumbOldoni} >
                 A challenge from FrontEnd Mentor
@@ -78,8 +92,7 @@ const Works = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
-            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
-          >
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbCsschatapp} >
                 A challenge from FrontEnd Mentor
@@ -101,16 +114,11 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={1}>
-            <WorkGridItem id="UnderConstruction" title="" thumbnail={Page_Under_Construction}>
-              Started coding in Decembre, I&apos;m working on it... But you can check my 404
+            <WorkGridItem id="UnderConstruction" title="*" thumbnail={Page_Under_Construction}>
+              Started coding in Decembre, All my work is above... But you can check my 404 👹
             </WorkGridItem>
           </Section>
-          {/* <Section delay={1}>
-            <WorkGridItem id="" title="" thumbnail={Page_Under_Construction}>
-              Started coding in Decembre, I'm working on it...
-            </WorkGridItem>
 
-          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>

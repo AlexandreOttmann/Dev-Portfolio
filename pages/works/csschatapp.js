@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="OniAudio">
+    <Layout title="CssChatApp">
       <Container mt={3}>
         <Title>
           OniAudio <Badge>2022</Badge>

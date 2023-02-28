@@ -28,7 +28,7 @@ const Work = () => {
           <ListItem>
             <Meta>Stack</Meta>
             <span><Badge bg="blue.400">Front</Badge>  React & React Router | Vite TS | Tailwind <br></br>
-              <Badge bg="red.400">Front</Badge>  Express JS | MongoDB </span>
+              &emsp;&emsp; &emsp;  <Badge bg="red.400">Front</Badge>  Express JS | MongoDB </span>
           </ListItem>
 
           <ListItem>

@@ -9,7 +9,7 @@ import Modale from '../../components/modale'
 const Work = () => {
 
   return (
-    <Layout title="codeWars">
+    <Layout title="CodeWars">
       <Container mt={3}>
         <Title>
           CodeWars <Badge bg="purple.300">2022</Badge>
