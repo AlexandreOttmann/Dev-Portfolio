@@ -51,11 +51,7 @@ const Work = () => {
         </Box>
         <Divider my={6} borderColor="grey" />
 
-
         <Modale content='MongoDB working example' source='argonautes_mongodb.png' />
-
-
-
 
       </Container>
     </Layout>

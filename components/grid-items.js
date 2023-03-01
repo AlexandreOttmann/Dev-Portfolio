@@ -58,7 +58,9 @@ export const BlogGridItem = ({ children, id, title, thumbnail }) => (
       />
       <LinkOverlay as="div" href={`/blog/${id}`}>
         <Text mt={2} fontSize={20}>
+
           {title}
+
         </Text>
       </LinkOverlay>
       <Text fontSize={14}>{children}</Text>

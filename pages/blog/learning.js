@@ -45,7 +45,7 @@ const Work = () => {
       <P>Either React and Redux the front-end or Data learning with GraphQL, IA, MongoDB, Redis for the back-end...</P>
       <Divider my={6} borderColor="grey" />
 
-
+      <WorkImage src="/images/works/learning_03.jpg" alt="learning picture" />
       <p className='tw-text-center'> What am I adding over school ? </p><br />
       <P>Long story short, i&apos;m choosing <strong className="tw-text-teal-500">Back</strong> Speciality because it&apos;s where I&apos;m lacking the most. I&apos;m <em className="tw-text-orange-500">currently learning React</em> and this is where the fun begin.
         Because I can&apos;t stick to just what the school is teaching me if I want to be competitive.</P><br />

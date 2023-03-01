@@ -1,8 +1,8 @@
 import React from 'react'
 import { SimpleGrid } from '@chakra-ui/react'
+import { motion } from "framer-motion";
+
 import Paragraph from '../components/paragraph'
-
-
 import Section from '../components/section'
 import { BlogGridItem } from '../components/grid-items'
 import Layout from '../components/layouts/article'
@@ -27,33 +27,87 @@ const Blog = () => {
 
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} mt={10} >
-          <Section >
-            <BlogGridItem id="idea" title="The idea behind this Website" thumbnail={thumbIdeaBehind} >
-              How I made this Website
-            </BlogGridItem>
-          </Section>
-          <Section>
-            <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbLearning} >
-              How I&apos;m learning, what I want to learn and what I aim for
-            </BlogGridItem>
-          </Section>
 
-          <Section delay={0.2}>
-            <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbCoffee} >
-              I&apos;m a coffee lover, but not the one you may portray
-            </BlogGridItem>
-          </Section>
-          <Section delay={0.2}>
-            <BlogGridItem id="potery" title="An Ode to Potery (wip)" thumbnail={thumbPoterie} >
-              I recently started a new hobby...
-            </BlogGridItem>
-          </Section>
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              y: 150,
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+          >
+            <Section>
+              <BlogGridItem id="idea" title="The idea behind this Website" className="tw-text " thumbnail={thumbIdeaBehind} >
+                How I made this Website
+              </BlogGridItem>
+            </Section>
+          </motion.article>
 
-          <Section delay={0.4}>
-            <BlogGridItem id="photo" title="My Gears (wip)" thumbnail={thumbGears} >
-              I never really liked photography until last year
-            </BlogGridItem>
-          </Section>
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              y: 150,
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+
+          >
+            <Section>
+              <BlogGridItem id="learning" title="How I am currently learning" thumbnail={thumbLearning} >
+                How I&apos;m learning, what I want to learn and what I aim for
+              </BlogGridItem>
+            </Section>
+          </motion.article>
+
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              y: -150,
+
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+          >
+            <Section delay={0.2}>
+              <BlogGridItem id="coffee" title="Why I love Speciality Coffee" thumbnail={thumbCoffee} >
+                I&apos;m a coffee lover, but not the one you may portray
+              </BlogGridItem>
+            </Section>
+          </motion.article>
+
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            initial={{ y: 150 }}
+            whileHover={{
+              y: 0,
+
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+          >
+            <Section delay={0.2}>
+              <BlogGridItem id="potery" title="An Ode to Potery" thumbnail={thumbPoterie} >
+                I recently started a new hobby...
+              </BlogGridItem>
+            </Section>
+          </motion.article>
+
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            initial={{ x: 0 }}
+            whileHover={{
+              x: 150,
+
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
+          >
+            <Section delay={0.4}>
+              <BlogGridItem id="photo" title="Some of my pictures" thumbnail={thumbGears} >
+                I never really liked photography until last year
+              </BlogGridItem>
+            </Section>
+          </motion.article>
 
         </SimpleGrid>
 

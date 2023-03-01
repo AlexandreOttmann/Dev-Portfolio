@@ -8,7 +8,12 @@ import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from '../components/bio'
 
+
+
+
+
 const Page = () => {
+
   return (
     <Layout>
       <Container mt={3}>
