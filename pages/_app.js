@@ -12,7 +12,6 @@ const Website = ({ Component, pageProps, router }) => {
   return (
     <Chakra cookies={pageProps.cookies}>
       <Fonts />
-
       <Layout router={router}>
         <AnimatePresence exitBeforeEnter initial={true}
           onExitComplete={() => {

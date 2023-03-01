@@ -10,6 +10,7 @@ import thumbCodewars from '../public/images/works/thumbCodewars.png'
 import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
 import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
 import thumbOldoni from '../public/images/works/thumbOldoni.png'
+import thumbPlayground from '../public/images/works/thumbPlayground.jpg'
 import Page_Under_Construction from '../public/images/UnderConstruction.png'
 
 const Works = () => {
@@ -25,8 +26,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="argonautes" title="Argonautes" thumbnail={thumbArgonautes} >
@@ -38,8 +47,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "0px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="oniaudio" title="OniAudio" thumbnail={thumbOniaudio} >
@@ -51,8 +68,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="socialdev" title="SocialDev" thumbnail={thumbSocialdev} >
@@ -65,8 +90,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="codewars" title="Codewars" thumbnail={thumbCodewars} >
@@ -78,8 +111,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="oldoni" title="Old Oni Windows" thumbnail={thumbOldoni} >
@@ -90,8 +131,16 @@ const Works = () => {
 
           <motion.article
             className="box"
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.05 }}
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section delay={0.2}>
               <WorkGridItem id="csschatapp" title="Css-Chat-App" thumbnail={thumbCsschatapp} >
@@ -113,11 +162,35 @@ const Works = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={1}>
-            <WorkGridItem id="UnderConstruction" title="*" thumbnail={Page_Under_Construction}>
-              Started coding in Decembre, All my work is above... But you can check my 404 👹
-            </WorkGridItem>
-          </Section>
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.05,
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section delay={1}>
+
+              <WorkGridItem id="UnderConstruction" title="" thumbnail={Page_Under_Construction}>
+                👹 Started coding in Decembre, All my work is above... But you can check my 404 👹
+              </WorkGridItem>
+            </Section>
+          </motion.article>
+
+
+          <motion.article
+            className="box"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.05,
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section delay={1}>
+              <WorkGridItem id="playground" title="Playground" thumbnail={thumbPlayground} >
+                👹 Be curious at your own risk 👹
+              </WorkGridItem>
+            </Section>
+          </motion.article>
 
         </SimpleGrid>
       </Container>

@@ -51,7 +51,7 @@ const Work = () => {
         Because I can&apos;t stick to just what the school is teaching me if I want to be competitive.</P><br />
 
 
-      <SimpleGrid columns={2} gap={2}>
+      <SimpleGrid minChildWidth='350px' gap={2}>
         <p>I&apos;ll have to learn so much more and I can&apos;t afford to waste time.
           So, aside from school I use evenings and nights to learn  <em className="tw-text-rose-400  ">React</em>  for now, then <em className="tw-text-teal-500">Next</em> and of course <em className="tw-text-rose-400">Typescript</em> since it&apos;s becoming the new standard. I already put a step toward <em className="tw-text-teal-500">Tailwind, Chakra UI and Material UI</em> too as you can see on this website. <em className="tw-text-rose-400">Redux</em> is coming right after it.
           Furthemore, algorithm studies are a little part of each week too.

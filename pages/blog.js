@@ -15,6 +15,7 @@ import thumbLearning from '../public/images/works/thumbLearning.jpg'
 import thumbIdeaBehind from '../public/images/works/thumbIdeaBehind.jpg'
 import thumbGears from '../public/images/works/thumbGears.jpg'
 
+
 const Blog = () => {
   return (
     <div>
@@ -32,7 +33,7 @@ const Blog = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{
-              y: 150,
+              scale: 1.02
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
           >
@@ -47,7 +48,7 @@ const Blog = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{
-              y: 150,
+              scale: 1.02
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
 
@@ -63,7 +64,7 @@ const Blog = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{
-              y: -150,
+              scale: 1.02
 
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
@@ -78,9 +79,9 @@ const Blog = () => {
           <motion.article
             className="box"
             whileTap={{ scale: 0.9 }}
-            initial={{ y: 150 }}
+
             whileHover={{
-              y: 0,
+              scale: 1.02
 
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
@@ -95,9 +96,9 @@ const Blog = () => {
           <motion.article
             className="box"
             whileTap={{ scale: 0.9 }}
-            initial={{ x: 0 }}
             whileHover={{
-              x: 150,
+              scale: 1.02
+
 
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}

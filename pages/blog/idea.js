@@ -14,7 +14,7 @@ const Work = () => {
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next/React | ChakraUI | MotionFramer</span>
+          <span>Next/React | ChakraUI & Tailwind | MotionFramer</span>
         </ListItem>
         <ListItem>
           <Meta>Github Repository</Meta>

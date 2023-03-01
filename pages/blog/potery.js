@@ -41,7 +41,7 @@ const Work = () => {
       <P className='tw-mb-3'>
 
         I have a mind that is working non-stop. It&apos;s very uncommon for me to find a peace state. But with this new activity,
-        it&apos;s finally a moment where I can think of nothing else but one thing. And in the focus of this action, it feels for me like a meditation because there&apos;s just no other noises, parasitc ideas. No other thought than thinking about control and the movement of the tour. What I want to achieve, and what I need to do to close the distance with where I&apos;m at.
+        it&apos;s finally a moment where I can think of nothing else but one thing. And in the focus of this action, it feels for me like a meditation because there&apos;s just no other noises, parasitic ideas. No other thought than thinking about control and the movement of the tour. What I want to achieve, and what I need to do to close the distance with where I&apos;m at.
       </P>
 
       <WorkImage src="/images/works/potery_03.jpg" alt="potery picture" />
