@@ -2,7 +2,7 @@ import { Title } from '../../components/work'
 
 import { Container, Badge } from '@chakra-ui/react'
 
-const Work = (title) => {
+const Work = () => {
   return (
     <Container className="tw-absolute  tw-left-0  tw-min-w-[100vw]  tw-min-h-[100vh] ">
       <Title>
