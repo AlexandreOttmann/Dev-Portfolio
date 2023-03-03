@@ -23,7 +23,7 @@ const Blog = () => {
       <Layout title="Blog">
 
         <Paragraph >
-          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos; skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. <br />I didn&apos;t want to have a flashy website, but just something that show who I am, in <span className="tw-text-orange-500">simplicity.</span>
+          So, here is a part of the website where you can get to know me a little bit more than just my dev&apos;  skills. This is kind of a blog where I&apos;ll post articles about stuff that I love and do. Potery, Photo, Video, Coffee. <br />I didn&apos;t want to have a flashy website, but just something that show who I am, in <span className="tw-text-orange-500">simplicity.</span>
         </Paragraph>
 
 
@@ -33,8 +33,9 @@ const Blog = () => {
             className="box"
             whileTap={{ scale: 0.9 }}
             whileHover={{
-              scale: 1.02
+              scale: 1.02,
             }}
+            initial={{ x: 0 }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
           >
             <Section>
@@ -65,7 +66,6 @@ const Blog = () => {
             whileTap={{ scale: 0.9 }}
             whileHover={{
               scale: 1.02
-
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
           >
@@ -79,10 +79,8 @@ const Blog = () => {
           <motion.article
             className="box"
             whileTap={{ scale: 0.9 }}
-
             whileHover={{
               scale: 1.02
-
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}
           >

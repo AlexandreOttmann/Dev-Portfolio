@@ -4,6 +4,7 @@ import { Title } from '../../components/work'
 import { motion } from "framer-motion";
 import { Container, Badge } from '@chakra-ui/react'
 
+
 const Work = () => {
   const constraintsRef = useRef(null);
   return (
@@ -12,7 +13,7 @@ const Work = () => {
         Playground <Badge>2023</Badge>
       </Title>
       <h1 className='tw-text-center tw-mb-48 '>So yeah, I just want to test on this page, motion framer and tailwind possibilities</h1>
-      <h2 className='tw-text-center tw-text-xl  '>Drag the white square around!</h2>
+      <h2 className='tw-text-center tw-text-xl  '>Drag the white square around, yey!</h2>
 
       <div className="">
         <motion.div
