@@ -12,7 +12,7 @@ const Work = () => {
         Why I love Speciality Coffee <Badge>2023</Badge>
       </TitleBlog>
 
-      <WorkImage src="/images/works/coffee_02.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_05.jpg" alt="coffee picture" />
       <span className='tw-flex tw-w-full tw-justify-end'><P className="tw-text-xs">19/02/2023 | My daily <strong className="tw-text-orange-500">Driver</strong></P></span>
       <Divider my={6} borderColor="grey" />
 
@@ -23,18 +23,23 @@ const Work = () => {
         </p>
       </SimpleGrid>
       <Divider my={6} borderColor="grey" />
-      <strong className="tw-text-red-500">(work in progress)</strong><br />
+
       <P>
-        Speciality Coffee is everything the industrial coffee you find in supermarket is not. Every unpleasent thing you taste in those, remove it and add complexity, delicatness, sweetness. Just like a tea or a wine.
+        Speciality Coffee is everything the industrial coffee you find in supermarket is not. Every unpleasent thing you taste in those, remove it and add complexity, delicatness, sweetness, pleasent acidity. Just like a tea or a wine.
       </P>
 
-
-      <WorkImage src="/images/works/coffee_01.jpg" alt="coffee picture" />
-
-
-
-      <P>And just like wine, you can describe the taste or aroma with a lot of words, from fruity to flowery. Sometime like bergamot or the contrary: chocolate, honey. When a coffee is well done, depending on its origin, you may taste sweetness with a delicate acidity. And as the temperature decrease, you may enjoy new flavors.</P>
+      <P>And just like those two, you can describe the taste or aroma with a lot of words, from fruity to flowery. Sometime like bergamot or the contrary: chocolate, honey. When a coffee is well done, depending on its origin, you may taste sweetness with a delicate acidity. And as the temperature decrease, you may enjoy new flavors.</P>
       <Modale content='coffee picture' source='coffee_03.png' />
+
+
+      <P>One of my favorite hobby is now to wander across Paris, trying to find new places, try new coffee shop, meeting people there... </P>
+      <WorkImage src="/images/works/coffee_01.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_02.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_06.jpg" alt="coffee picture" />
+      <WorkImage src="/images/works/coffee_07.jpg" alt="coffee picture" />
+
+
+
 
 
     </Layout >
