@@ -91,8 +91,14 @@ const Page = () => {
             Additionnal software that I use
           </Heading>
           <Button fontSize='sm' leftIcon={<SiAdobeaftereffects />} variant="ghost">After Effect</Button>|<Button fontSize='sm' leftIcon={<SiAdobepremierepro />} variant="ghost">Premiere Pro</Button>|<Button fontSize='sm' leftIcon={<SiProtools />} variant="ghost">Protools</Button>|<Button fontSize='sm' leftIcon={<SiApplemusic />} variant="ghost">Logic Pro</Button>
+          <Box align="center" my={4}>
+            <a href="CV_AlexandreOttmann.pdf" download scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
+                Download my CV
+              </Button>
+            </a>
+          </Box>
         </Section>
-
 
         <Section delay={0.8}>
           <Heading as="h3" variant="section-title">
