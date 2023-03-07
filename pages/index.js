@@ -117,7 +117,7 @@ const Page = () => {
           </Heading>
           <Button fontSize='sm' leftIcon={<SiAdobeaftereffects />} variant="ghost">After Effect</Button>|<Button fontSize='sm' leftIcon={<SiAdobepremierepro />} variant="ghost">Premiere Pro</Button>|<Button fontSize='sm' leftIcon={<SiProtools />} variant="ghost">Protools</Button>|<Button fontSize='sm' leftIcon={<SiApplemusic />} variant="ghost">Logic Pro</Button>
           <Box align="center" my={4}>
-            <a href="CV_AlexandreOttmann.pdf" download scroll={false}>
+            <a href="/CV_AlexandreOttmann.pdf" target='_blank'>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
                 Download my CV
               </Button>
