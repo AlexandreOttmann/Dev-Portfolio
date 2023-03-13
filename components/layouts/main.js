@@ -11,20 +11,20 @@ const Main = ({ children, router }) => {
   const param = router.asPath
 
   return (
-    <Suspense fallback={<Loading />}>
-      <Box as="main" pb={8}>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="description" content="Alex's homepage" />
-          <meta name="author" content="Alexandre Ottmann" />
+    <Box as="main" pb={8}>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Alex's homepage" />
+        <meta name="author" content="Alexandre Ottmann" />
 
-          <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-          <title>Alexandre Ottmann - Page d&apos;accueil</title>
-        </Head>
+        <title>Alexandre Ottmann - Page d&apos;accueil</title>
+      </Head>
 
-        <Navbar path={router.asPath} className="tw-z-20" />
+      <Navbar path={router.asPath} className="tw-z-20" />
+      <Suspense fallback={<Loading />}>
         {param == '/blog' &&
           <VideoHeader />
         }
@@ -38,8 +38,8 @@ const Main = ({ children, router }) => {
 
           <Footer />
         </Container>
-      </Box >
-    </Suspense>
+      </Suspense>
+    </Box >
   )
 }
 
