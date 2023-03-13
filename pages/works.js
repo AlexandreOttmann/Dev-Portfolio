@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-items'
 import { motion } from "framer-motion";
 
 import thumbArgonautes from '../public/images/works/thumbArgonautes.png'
+import thumbInvoice from '../public/images/works/thumbInvoice.png'
 import thumbOniaudio from '../public/images/works/thumbOniaudio.png'
 import thumbCodewars from '../public/images/works/thumbCodewars.png'
 import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
@@ -23,7 +24,25 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
-
+          <motion.article
+            className="box"
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section>
+              <WorkGridItem id="invoice" title="Invoice Generator" thumbnail={thumbInvoice} >
+                An Invoice generator in PDF using only React
+              </WorkGridItem>
+            </Section>
+          </motion.article>
           <motion.article
             className="box"
             whileTap={{

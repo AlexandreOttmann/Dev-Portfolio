@@ -15,7 +15,7 @@ const Work = () => {
       <h1 className='tw-text-center tw-mb-48 '>So yeah, I just want to test on this page, motion framer and tailwind possibilities</h1>
       <h2 className='tw-text-center tw-text-xl  '>Drag the white square around, yey!</h2>
 
-      <div className="">
+      <div>
         <motion.div
           className="dynamicBox tw-m-auto "
           animate={{

@@ -18,7 +18,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://oniaudio.com/">
+            <Link href="https://oniaudio.com/" target='_blank'>
               https://oniaudio.com/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -35,7 +35,7 @@ const Work = () => {
 
           <ListItem>
             <Meta>Github Repository</Meta>
-            <Link href='https://github.com/AlexandreOttmann/Oni-Audio'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
+            <Link href='https://github.com/AlexandreOttmann/Oni-Audio' target='_blank'>Oni-Audio Repo<ExternalLinkIcon mx="2px" /></Link>
           </ListItem>
         </List>
 
