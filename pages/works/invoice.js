@@ -48,6 +48,7 @@ const Work = () => {
 
 
         <Divider my={6} borderColor="grey" />
+
         <Box as='video'
           src="/videos/invoice.mp4"
           autoPlay

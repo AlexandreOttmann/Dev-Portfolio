@@ -6,6 +6,7 @@ import Footer from '../footer'
 import { Suspense } from 'react'
 import Loading from './loading.js'
 
+
 const Main = ({ children, router }) => {
 
   const param = router.asPath
