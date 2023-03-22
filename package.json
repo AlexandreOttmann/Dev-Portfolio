@@ -16,6 +16,7 @@
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",
     "@emotion/styled": "^11.10.5",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
     "autoprefixer": "^10.4.13",
     "framer-motion": "^8.5.4",
     "next": "^13.1.6",

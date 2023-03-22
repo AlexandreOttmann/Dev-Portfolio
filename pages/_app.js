@@ -1,6 +1,7 @@
 import '../styles/global.css'
 import Chakra from '../components/chakra';
-
+import { useEffect, useState } from 'react';
+import Loading from '../components/layouts/loading';
 import Layout from '../components/layouts/main'
 import Fonts from "../components/fonts";
 
@@ -8,22 +9,30 @@ import Fonts from "../components/fonts";
 import { AnimatePresence } from "framer-motion";
 
 const Website = ({ Component, pageProps, router }) => {
+  const [isLoading, setIsLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000)
+  }, []);
 
   return (
-    <Chakra cookies={pageProps.cookies}>
-      <Fonts />
-      <Layout router={router}>
-        <AnimatePresence exitBeforeEnter initial={true}
-          onExitComplete={() => {
-            if (typeof window !== 'undefined') {
-              window.scrollTo({ top: 0 })
-            }
-          }}
-        >
-          <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
-      </Layout>
-    </Chakra>
+    <>{isLoading ? <Loading /> :
+      <Chakra cookies={pageProps.cookies}>
+        <Fonts />
+        <Layout router={router}>
+          <AnimatePresence exitBeforeEnter initial={true}
+            onExitComplete={() => {
+              if (typeof window !== 'undefined') {
+                window.scrollTo({ top: 0 })
+              }
+            }}
+          >
+            <Component {...pageProps} key={router.route} />
+          </AnimatePresence>
+        </Layout>
+      </Chakra>
+    }</>
   )
 }
 

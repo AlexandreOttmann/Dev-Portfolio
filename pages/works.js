@@ -24,6 +24,28 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
+          {/* //! CODETRACKER */}
+          <motion.article
+            className="box"
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section>
+              <WorkGridItem id="codetracker" title="CodeTracker" thumbnail={thumbInvoice} >
+                A github CodeTracker with authentification/Form/Search and Api usage
+              </WorkGridItem>
+            </Section>
+          </motion.article>
+
+          {/* //! INVOICE */}
           <motion.article
             className="box"
             whileTap={{
@@ -43,6 +65,9 @@ const Works = () => {
               </WorkGridItem>
             </Section>
           </motion.article>
+
+
+          {/* //! ARGONAUTES */}
           <motion.article
             className="box"
             whileTap={{
@@ -63,7 +88,7 @@ const Works = () => {
             </Section>
           </motion.article>
 
-
+          {/* //! PORTFOLIO AUDIO */}
           <motion.article
             className="box"
             whileTap={{
@@ -84,7 +109,7 @@ const Works = () => {
             </Section>
           </motion.article>
 
-
+          {/* //! SOCIALDEV */}
           <motion.article
             className="box"
             whileTap={{
@@ -106,7 +131,7 @@ const Works = () => {
           </motion.article>
 
 
-
+          {/* //! ALGORITHM */}
           <motion.article
             className="box"
             whileTap={{
@@ -127,7 +152,7 @@ const Works = () => {
             </Section>
           </motion.article>
 
-
+          {/* //! Old ONI */}
           <motion.article
             className="box"
             whileTap={{
@@ -147,7 +172,7 @@ const Works = () => {
               </WorkGridItem>
             </Section>
           </motion.article>
-
+          {/* //! CSSCHAT */}
           <motion.article
             className="box"
             whileTap={{
