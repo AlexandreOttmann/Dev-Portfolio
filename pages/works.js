@@ -12,7 +12,11 @@ import thumbSocialdev from '../public/images/works/thumbSocialdev.png'
 import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
 import thumbOldoni from '../public/images/works/thumbOldoni.png'
 import thumbPlayground from '../public/images/works/thumbPlayground.jpg'
+import thumbCodetracker from '../public/images/works/thumbCodetracker.png'
+
 import Page_Under_Construction from '../public/images/UnderConstruction.png'
+
+
 
 const Works = () => {
   return (
@@ -39,8 +43,8 @@ const Works = () => {
             }}
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
-              <WorkGridItem id="codetracker" title="CodeTracker" thumbnail={thumbInvoice} >
-                A github CodeTracker with authentification/Form/Search and Api usage
+              <WorkGridItem id="codetracker" title="CodeTracker" thumbnail={thumbCodetracker} >
+                A project I'm <span className='tw-text-orange-400'>currently working on</span>. Identification with Github and track your projects/commits and display your data.
               </WorkGridItem>
             </Section>
           </motion.article>

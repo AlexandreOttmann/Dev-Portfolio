@@ -15,25 +15,26 @@ const Work = () => {
           CodeTracker &nbsp;<Badge bg="red.300">2023</Badge>
         </Title>
 
-        <WorkImage src="/images/works/thumbInvoice.png" alt="Website image" />
+        <WorkImage src="/images/works/thumbCodetracker.png" alt="Website image" />
         <P>
 
         </P>
         <P>With <Link href="https://github.com/frontcodelover" target='_blank'>
           Nicolas de Raemy
-        </Link>, a friend of mine, we tried to build an Invoice Generator in 2 days using only React. No Back-End. Displaying dynamically the pdf result as you&apos;re filling the form. We used jspdf to export to pdf and a whole bundle of Contexts/States to manage form&apos;s data.</P>
+        </Link>, we started on March 15th to build a full website with front/back, authentification with a provider (github), data persistance. Fetching from the user his current public stats. Languages used, number of projects, commits, comments etc... We wanted to make a project using a full range of needed knowledge for our futur job.</P>
+        <P>We&apos;re still working on it and planned to launch the first version at the end of March knowing that we&apos;re still working on other projects and studying at our current school.</P>
 
         <List ml={4} my={4} >
-          <ListItem>
+          {/* <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://invoice-generator-sigma.vercel.app/" target='_blank'>
-              https://invoice-generator.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/frontcodelover/codetrackerV2" target='_blank'>
+              https://github.com/frontcodelover/codetrackerV2 (currently offline) <ExternalLinkIcon mx="2px" />
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Meta>Repository</Meta>
-            <Link href="https://github.com/AlexandreOttmann/Invoice-Generator" target="_blank">
-              Invoice Generator Repo <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/frontcodelover/codetrackerV2" target="_blank">
+              https://github.com/frontcodelover/codetrackerV2 (currently private until MVP build)<ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
@@ -41,7 +42,7 @@ const Work = () => {
           <ListItem>
             <Meta>Stack</Meta>
             <span><Badge bg="blue.400">Front</Badge>  React & React Router | Vite JS | Tailwind<br />
-              &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;Styled Component | jspdf</span>
+              &emsp;&emsp; &emsp;<Badge bg="red.400">Back</Badge> Firebase</span>
           </ListItem>
 
         </List>
@@ -50,7 +51,7 @@ const Work = () => {
         <Divider my={6} borderColor="grey" />
 
         <Box as='video'
-          src="/videos/invoice.mp4"
+          src="/videos/codetracker_example.mp4"
           autoPlay
           className=" tw-min-w-full tw-min-h-full  tw-opacity-100  "
           loop
