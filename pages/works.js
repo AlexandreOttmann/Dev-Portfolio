@@ -44,7 +44,7 @@ const Works = () => {
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="codetracker" title="CodeTracker" thumbnail={thumbCodetracker} >
-                A project I'm <span className='tw-text-orange-400'>currently working on</span>. Identification with Github and track your projects/commits and display your data.
+                A project I&apos;m <span className='tw-text-orange-400'>currently working on</span>. Identification with Github, Tracking your projects/commits and displaying your stats.
               </WorkGridItem>
             </Section>
           </motion.article>

@@ -21,7 +21,8 @@ const Work = () => {
         </P>
         <P>With <Link href="https://github.com/frontcodelover" target='_blank'>
           Nicolas de Raemy
-        </Link>, we started on March 15th to build a full website with front/back, authentification with a provider (github), data persistance. Fetching from the user his current public stats. Languages used, number of projects, commits, comments etc... We wanted to make a project using a full range of needed knowledge for our futur job.</P>
+        </Link>, we started on March 15th to build a full website with front/back, authentification with a provider (github), data persistance. Fetching from the user his current public stats. Languages used, number of projects, commits, comments etc... We wanted to make a project using a full range of needed knowledge for our futur job. Fullstack.
+          With each new project, I like to discover new things, using new library, framework, tools. Even if I don&apos;t dive deep into it, I get a glimpse of its usages. </P>
         <P>We&apos;re still working on it and planned to launch the first version at the end of March knowing that we&apos;re still working on other projects and studying at our current school.</P>
 
         <List ml={4} my={4} >
