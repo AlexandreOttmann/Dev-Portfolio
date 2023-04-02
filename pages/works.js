@@ -45,7 +45,7 @@ const Works = () => {
             transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
             <Section>
               <WorkGridItem id="jobfinder" title="JobFinder" thumbnail={thumbJobfinder} >
-                A new project I&apos;m <span className='tw-text-blue-400'>using as a learning base</span>. Creating my first React Native app to pretend to a Job I&apos;m applying.
+                A new project I&apos;m <span className='tw-text-blue-400'>using as a learning base</span>. Creating my first React Native app for a Job I&apos;m applying to.
               </WorkGridItem>
             </Section>
           </motion.article>

@@ -17,8 +17,9 @@ const Work = () => {
 
         <WorkImage src="/images/works/thumbJobfinder.png" alt="Website image" />
         <P>
-          I came accross a job offer for a apprenticeship in a company I really want to work with.
-          One of the issue of my candidacy is that, as I&apos;m still in scholarship, I&apos;m lacking some of the technical skills for the stack they&apos;re asking. The closest one is React Native. As I was always curious about it, on how it works and the differences compare to React developing, I choose to build a first app, following tutorials online on using api to display jobs offer...
+          I came accross a job offer for an apprenticeship in a company I really want to work with.
+          One of the issue of my candidacy is that, as I&apos;m still in scholarship, I&apos;m lacking some of the technical skills for the stack they&apos;re asking. The closest one is React Native. As I was always curious about it, on how it works and the differences compare to React developing, I choose to build a first app, following tutorials online and using api to display jobs offer...
+          I&apos; using this project to learn something really new that my school is not teaching and I&apos;m really excited about it!
         </P>
 
         <span className='tw-text-blue-400 '>03/04/23 : For now only the Home Page is functionnal and displaying the fetchs from the RapideAPI website using JSearch API. </span>
