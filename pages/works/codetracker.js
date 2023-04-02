@@ -35,7 +35,7 @@ const Work = () => {
           <ListItem>
             <Meta>Repository</Meta>
             <Link href="https://github.com/frontcodelover/codetrackerV2" target="_blank">
-              https://github.com/frontcodelover/codetrackerV2 (currently private until MVP build)<ExternalLinkIcon mx="2px" />
+              https://github.com/frontcodelover/codetrackerV2 <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 

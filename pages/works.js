@@ -13,6 +13,7 @@ import thumbCsschatapp from '../public/images/works/thumbCsschatapp.png'
 import thumbOldoni from '../public/images/works/thumbOldoni.png'
 import thumbPlayground from '../public/images/works/thumbPlayground.jpg'
 import thumbCodetracker from '../public/images/works/thumbCodetracker.png'
+import thumbJobfinder from '../public/images/works/thumbJobfinder.png'
 
 import Page_Under_Construction from '../public/images/UnderConstruction.png'
 
@@ -27,6 +28,27 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+          {/* //! JobFinder */}
+          <motion.article
+            className="box"
+            whileTap={{
+              scale: 0.9,
+              boxShadow: "2px 2px 0  rgba(0, 0, 0, 0.1)",
+            }}
+            whileHover={{
+              y: -10,
+              x: -10,
+              scale: 1.05,
+              boxShadow: "10px 10px 0  rgba(0, 0, 0, 0.2)",
+            }}
+            transition={{ type: "Inertia", stiffness: 500, damping: 10 }}>
+            <Section>
+              <WorkGridItem id="jobfinder" title="JobFinder" thumbnail={thumbJobfinder} >
+                A new project I&apos;m <span className='tw-text-blue-400'>using as a learning base</span>. Creating my first React Native app to pretend to a Job I&apos;m applying.
+              </WorkGridItem>
+            </Section>
+          </motion.article>
 
           {/* //! CODETRACKER */}
           <motion.article
