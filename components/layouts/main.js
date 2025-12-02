@@ -31,7 +31,6 @@ const Main = ({ children, router }) => {
         }
 
         <Container
-
           maxW="container.md"
           pt={14}>
 
