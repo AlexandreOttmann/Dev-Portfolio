@@ -20,8 +20,8 @@ const PortfolioRedirectDialog = () => {
         fr: {
             title: 'Nouveau Portfolio Disponible!',
             text1: 'Hello ! Vous êtes actuellement entrain de consulter mon premier portfolio (v1).',
-            text2: 'J\'ai depuis créé un portfolio avec des projets mis à jour, un design amélioré, et plus de fonctionnalités.',
-            text3: 'Feel free to explore this version, or check out the latest one!',
+            text2: 'J\'ai depuis créé un portfolio avec des projets mis à jour, un nouveau design, et plus de fonctionnalités.',
+            text3: 'Soyez libre de consulter cette version, ou explorer mon nouveau portfolio !',
             visitNew: 'Visiter le nouveau portfolio',
             stayHere: 'Restez ici',
         },
