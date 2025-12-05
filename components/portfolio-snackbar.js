@@ -26,10 +26,13 @@ const PortfolioSnackbar = () => {
     const [isVisible, setIsVisible] = useState(true);
     const [currentLang, setCurrentLang] = useState('fr');
 
+    // Move hooks to top level to avoid conditional hook calls
+    const bgColor = useColorModeValue('white', '#202023');
+    const borderColor = useColorModeValue('gray.200', 'whiteAlpha.200');
+
     useEffect(() => {
         // Check if there's a source query parameter
         const urlParams = new URLSearchParams(window.location.search);
-        const hasSourceParam = urlParams.has('source');
         const lang = urlParams.get('lang');
 
         // Set language
@@ -57,9 +60,9 @@ const PortfolioSnackbar = () => {
                 bottom={0}
                 left={0}
                 right={0}
-                bg={useColorModeValue('white', '#202023')}
+                bg={bgColor}
                 borderTop="1px solid"
-                borderColor={useColorModeValue('gray.200', 'whiteAlpha.200')}
+                borderColor={borderColor}
                 boxShadow="0 -2px 10px rgba(0, 0, 0, 0.1)"
                 py={3}
             >

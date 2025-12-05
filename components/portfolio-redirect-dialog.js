@@ -53,7 +53,7 @@ const PortfolioRedirectDialog = () => {
             onOpen();
             sessionStorage.setItem('hasSeenPortfolioDialog', 'true');
         }
-    }, []);
+    }, [onOpen]);
 
     const handleVisitNew = () => {
         window.location.href = 'https://alexottmann.com';
