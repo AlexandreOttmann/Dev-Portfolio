@@ -9,9 +9,6 @@ import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from '../components/bio'
 
 
-
-
-
 const Page = () => {
 
   return (
@@ -67,8 +64,8 @@ const Page = () => {
               <GridItem className='tw-break-normal' ><SiMysql /> MySQL</GridItem>
               <GridItem className='tw-break-normal' ><SiStripe /> Stripe</GridItem>
               <GridItem className='tw-break-normal' ><SiD3Dotjs /> D3</GridItem>
-             
-             
+
+
             </SimpleGrid>
 
           </Box>
@@ -126,7 +123,7 @@ const Page = () => {
             <BioYear> Present :</BioYear>
             <Text bgGradient='linear(to-r, #90CDF4, #FF0080)'
               bgClip='text'>
-             <span className='tw-px-20'> Looking for new opportunities to pursue my career.</span> 
+              <span className='tw-px-20'> Looking for new opportunities to pursue my career.</span>
             </Text>
           </BioSection>
         </Section>

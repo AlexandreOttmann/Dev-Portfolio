@@ -2,6 +2,9 @@
   "name": "portfolio-dev",
   "version": "1.0.0",
   "description": "Alex's Website",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
